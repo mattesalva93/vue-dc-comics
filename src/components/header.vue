@@ -94,7 +94,7 @@ export default {
         line-height: 125px;
         &.active, &:hover {
           color: $dcBlu;
-          border-bottom: 3px solid $dcBlu;
+          border-bottom: 5px solid $dcBlu;
         }
         a{
           text-decoration: none;
