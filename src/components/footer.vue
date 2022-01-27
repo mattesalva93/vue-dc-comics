@@ -22,45 +22,52 @@
     <div class="main-footer">
       <div class="container">
         <div class="footer-links">
-          <h4>DC COMICS</h4>
-          <ul>
-            <li>Characters</li>
-            <li>Comics</li>
-            <li>Movies</li>
-            <li>Tv</li>
-            <li>Games</li>
-            <li>Videos</li>
-            <li>News</li>
-          </ul>
-          <h4>SHOP</h4>
-          <ul>
-            <li>Shop DC</li>
-            <li>Shop DC Collectibles</li>
-          </ul>
-          <h4>DC</h4>
-          <ul>
-            <li>Terms of Use</li>
-            <li>Comics</li>
-            <li>Movies</li>
-            <li>Tv</li>
-            <li>Games</li>
-            <li>Videos</li>
-            <li>News</li>
-            <li>Movies</li>
-            <li>Tv</li>
-            <li>Games</li>
-            <li>Videos</li>
-            <li>News</li>
-          </ul>
-          <h4>SITES</h4>
-          <ul>
-            <li>Characters</li>
-            <li>Comics</li>
-            <li>Movies</li>
-            <li>Tv</li>
-            <li>Games</li>
-          </ul>
+          <div>
+            <h4>DC COMICS</h4>
+            <ul>
+              <li>Characters</li>
+              <li>Comics</li>
+              <li>Movies</li>
+              <li>Tv</li>
+              <li>Games</li>
+              <li>Videos</li>
+              <li>News</li>
+            </ul>
+            <h4>DC COMICS</h4>
+            <ul>
+              <li>Characters</li>
+              <li>Comics</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>DC COMICS</h4>
+            <ul>
+              <li>Characters</li>
+              <li>Comics</li>
+              <li>Movies</li>
+              <li>Tv</li>
+              <li>Games</li>
+              <li>Videos</li>
+              <li>News</li>
+              <li>Movies</li>
+              <li>Tv</li>
+              <li>Games</li>
+              <li>Videos</li>
+              <li>News</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>DC COMICS</h4>
+            <ul>
+              <li>Characters</li>
+              <li>Comics</li>
+              <li>Movies</li>
+            </ul>
+          </div>
         </div>
+
         <div class="container-logo">
           <img src="../assets/img/dc-logo-bg.png" alt="">
         </div>
@@ -119,10 +126,23 @@ export default {
     background-size: cover;
     overflow-y: hidden;
     .container{
-      display: flex;
       position: relative;
         .footer-links{
+          display: flex;
           width: 50%;
+          div{
+          margin-right: 20px;
+          }
+          h4{
+            margin-top: 30px;
+            color: white;
+          }
+          ul{
+            list-style-type: none;
+            margin: 15px 0;
+            color: grey;
+            font-size: 0.9rem;
+          }
         }
         .container-logo{
           width: 50%;
