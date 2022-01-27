@@ -1,4 +1,5 @@
 @import './partials/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Montserrat:wght@300;400;500;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Rubik+Mono+One&family=The+Nautigal:wght@400;700&display=swap');
 
 /* ------------------------
 RESET
@@ -25,3 +26,9 @@ CONTAINERS
 /* ------------------------
 TYPO
 ------------------------ */
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+a{
+    color: $coloreTesto;
+}
