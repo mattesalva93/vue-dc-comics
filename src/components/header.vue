@@ -4,13 +4,13 @@
       <div>
         <img src="../assets/img/dc-logo.png" alt="">
       </div>
-      <div>
+      <nav>
         <ul>
-          <li v-for="(link, indice) in navlinks" :key="indice" :class="{'active': link.current}">
-              <a :href="link.url" >{{link.text}}</a>
+          <li v-for="(link, indice) in navlinks" :key="indice">
+              <a :href="link.url" :class="{'active': link.current}">{{link.text}}</a>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   </header>
 </template>
@@ -91,15 +91,15 @@ export default {
       li{
         display: inline-block;
         margin: 0 10px;
-        line-height: 125px;
-        &.active, &:hover {
-          color: $dcBlu;
-          border-bottom: 5px solid $dcBlu;
-        }
         a{
           text-decoration: none;
           text-transform: uppercase;
-
+          line-height: 125px;
+          color: $coloreTesto;
+          &.active, &:hover {
+            color: $dcBlu;
+            border-bottom: 5px solid $dcBlu;
+          }
         }
       }
   }
