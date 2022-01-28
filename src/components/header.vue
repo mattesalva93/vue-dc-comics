@@ -98,6 +98,7 @@ export default {
           color: $coloreTesto;
           &.active, &:hover {
             color: $dcBlu;
+            padding: 51px 0;
             border-bottom: 5px solid $dcBlu;
           }
         }

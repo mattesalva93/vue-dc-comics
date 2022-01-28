@@ -1,15 +1,18 @@
 <template>
 
     <div class="card-container">
-        <img src="../../assets/img/buy-comics-digital-comics.png" alt="">
-        <span>Digital Comics</span>
+        <img :src="dclink.src" :alt="dclink.title">
+        <span>{{dclink.title}}</span>
     </div>
  
 </template>
 
 <script>
 export default {
-    name: "dc-link-card"
+    name: "dc-link-card",
+    props: {
+        'dclink': Object
+    }
 }
 </script>
 
